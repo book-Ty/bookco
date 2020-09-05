@@ -1,0 +1,18 @@
+{
+  "name": "BookCo",
+  "version": "2.0.0",
+  "description": "A bare bones, modelless, mongooseless Node/Mongo/Express CRUD server",
+  "main": "book.keep.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bookTy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "core-util-is": "^1.0.2",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
