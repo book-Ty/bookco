@@ -47,8 +47,8 @@ async function main() {
   require('./book.flo.js')(app, bookCo, dbConfig);
 
   // listen for requests
-  app.listen(3000, () => {
-      console.log("Server is listening on port 3000");
+  app.listen(8002, () => {
+      console.log("Server is listening on port 8002");
   });
 }
 
