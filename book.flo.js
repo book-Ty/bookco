@@ -24,7 +24,7 @@ module.exports = (app, bookCo, dbConfig) => {
       var doc = {};
       doc[req.params.key] = req.params.value;
       bookCo.printDocument(dbConfig.collection, doc, function(err, docs) {
-    		res.json(docs[0]);
+    		res.json(docs); 
     	});
     });
 
